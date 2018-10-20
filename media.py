@@ -7,9 +7,9 @@ class Movie():
         """Constructor that initialises the Movie class and it's variables."""
         self.title = movie_title
         self.storyline = movie_storyline
-        self.poster_image_url =  poster_image
+        self.poster_image_url = poster_image
         self.trailer_youtube_url = trailer_youtube
 
-	def show_trailer(self):
+    def show_trailer(self):
         """Function that plays the trailer by using the web browser."""
         webbrowser.open(self.trailer_youtube_url)

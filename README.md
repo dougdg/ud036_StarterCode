@@ -6,7 +6,7 @@ This project is based on the source code from [ud036_StarterCode](https://github
 # About the project
 This project is basically composed by 3 python files:
 - **media.py:** for our movie class
-- **entertainment_center.py:** movie objects instances and finally, the
+- **entertainment_center.py:** movie objects instances and finally
 - **fresh_tomatoes.py:** provided by Udacity, which builds up our Movie Trailer website.
 
 # Running the project

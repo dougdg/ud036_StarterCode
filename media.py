@@ -1,9 +1,11 @@
 """Media file class for our movie class and it's properties."""
 import webbrowser
 
-class Movie():
+
+class Movie:
     """Movie class to instantiate movie objects and properties"""
-    def __init__(self, movie_title, movie_storyline, poster_image, trailer_youtube):
+    def __init__(self, movie_title, movie_storyline, poster_image,
+                 trailer_youtube):
         """Constructor that initialises the Movie class and it's variables."""
         self.title = movie_title
         self.storyline = movie_storyline
